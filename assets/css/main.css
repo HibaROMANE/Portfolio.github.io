@@ -1279,6 +1279,9 @@ section,
   /* Add your styles here */
 }
 
+
+
+
 .skills {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1361,4 +1364,39 @@ section,
 
 .skill-item:active {
   transform: scale(1);
+}
+
+
+
+
+
+
+
+.activity-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.activity-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.activity-description {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
